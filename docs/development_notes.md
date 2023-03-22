@@ -18,8 +18,8 @@ Several printers for the [Dot Format](https://en.wikipedia.org/wiki/DOT_(graph_d
 Together with [Graphviz](https://graphviz.gitlab.io/), ASTs, symbol tables and control flow graphs can be visualised.
 
     $ ./mc_ast_to_dot ../test/integration/fib/fib.mc | dot -Tpng > fib_ast.png
-    $ ./mc_symbol_table -d ../test/integration/fib/fib.mc | dot -Tpng > fib_ast.png
-    $ ./mc_cfg_to_dot ../test/integration/fib/fib.mc | dot -Tpng > fib_ast.png
+    $ ./mc_symbol_table -d ../test/integration/fib/fib.mc | dot -Tpng > fib_st.png
+    $ ./mc_cfg_to_dot ../test/integration/fib/fib.mc | dot -Tpng > fib_cfg.png
 
 Symbol tables, intermediate representation, and assembly code can be output in plain format directly:
 
